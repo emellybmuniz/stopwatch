@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  outline: none;
+}
+
+:root {
+  --background-color: #fff;
+  --borderColor: #4f46e5;
+  --buttonColor: #5f58ec;
+  --font: "Afacad", Helvetica, sans-serif;
+  --text-color: #000000;
+}
+
+:root.dark-mode {
+  --background-color: #0a0a0a;
+  --text-color: #fff;
+}
+
+html {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  height: 100vh;
+}
+body,
+html {
+  font-family: var(--font);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.switch-theme-button {
+  cursor: pointer;
+  position: absolute;
+  background: none;
+  border: 0px;
+  top: 10px;
+  right: 10px;
+}
+
+.grid-container {
+  border-radius: 50%;
+  border: 5px solid var(--borderColor);
+  border-collapse: collapse;
+  padding: 50px;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  grid:
+    "timer timer"
+    "clock clock"
+    "submit-button reset-button";
+}
+
+.grid-container h1 {
+  grid-area: timer;
+  font-size: 3.4rem;
+}
+
+.grid-container p {
+  grid-area: clock;
+  font-size: 2.2em;
+  padding: 12px;
+}
+
+.button {
+  cursor: pointer;
+  background-color: var(--buttonColor);
+  border-radius: 14px;
+  border: 0px;
+  color: #ffffff;
+  padding: 10px;
+  margin: 5px 10px;
+  font-size: 1rem;
+}
+
+.pause {
+  background-color: #5d5a8c;
+}
+
+.reset-active {
+  background-color: #dc5454;
+
+}
