@@ -82,6 +82,10 @@ html {
   background-color: #5d5a8c;
 }
 
+.clock-pause {
+  color: #d14848;
+}
+
 .reset-active {
   background-color: #dc5454;
 

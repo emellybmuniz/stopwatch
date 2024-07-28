@@ -25,10 +25,12 @@ let displayTime = (hours, minutes, seconds) => {
       startClock();
       start.classList.add('pause')
       start.textContent = 'Pausar';
+      clock.classList.remove('clock-pause')
     } else {
       clearInterval(timer);
       timer = null;
       start.classList.remove('pause')
+      clock.classList.add('clock-pause')
       start.textContent = 'Iniciar';
     }
   });
@@ -39,5 +41,6 @@ let displayTime = (hours, minutes, seconds) => {
     totalSeconds = 0;
     clock.innerHTML = displayTime(0, 0, 0);
     start.textContent = 'Iniciar';
+    clock.classList.remove('clock-pause')
   });
   
