@@ -47,6 +47,8 @@ html {
   border-radius: 50%;
   border: 5px solid var(--borderColor);
   border-collapse: collapse;
+  width: 220px;
+  height: 220px;
   padding: 50px;
   display: grid;
   justify-items: center;
