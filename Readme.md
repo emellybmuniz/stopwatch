@@ -17,7 +17,7 @@ Um cronômetro simples e elegante para a web, projetado para medir intervalos de
 - [Pré-requisitos](#-pré-requisitos)
 - [Instalação](#-instalação)
 - [Como Usar](#-como-usar)
-- [Deseja Contribuir?](#-deseja-contribuir?)
+- [Deseja Contribuir?](#-deseja-contribuir)
 - [Licença](#-licença)
 - [Autor](#-autor)
 
@@ -80,6 +80,7 @@ Feito por **Emelly Muniz** com ❤️
 📬 Entre em contato:
 📧 emellybmuniz@gmail.com |
 💼 [Linkedin](www.linkedin.com/in/emellybmuniz)
+
 
 
 
