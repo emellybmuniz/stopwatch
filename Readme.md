@@ -17,7 +17,7 @@ Um cronômetro simples e elegante para a web, projetado para medir intervalos de
 - [Pré-requisitos](#-pré-requisitos)
 - [Instalação](#-instalação)
 - [Como Usar](#-como-usar)
-- [Como Contribuir](#-como-contribuir)
+- [Deseja Contribuir?](#-deseja-contribuir?)
 - [Licença](#-licença)
 - [Autor](#-autor)
 
@@ -25,9 +25,7 @@ Um cronômetro simples e elegante para a web, projetado para medir intervalos de
 
 ## 📖 Sobre o Projeto
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/emellybmuniz/stopwatch/src/imagens/stopwatch-light.png" alt="Demonstração do projeto" width="70%">
-</p>
+![Demonstração do Projeto](https://raw.githubusercontent.com/emellybmuniz/stopwatch/src/imagens/stopwatch-light.png)
 
 
 ## ✨ Funcionalidades
@@ -82,4 +80,5 @@ Feito por **Emelly Muniz** com ❤️
 📬 Entre em contato:
 📧 emellybmuniz@gmail.com |
 💼 [Linkedin](www.linkedin.com/in/emellybmuniz)
+
 
