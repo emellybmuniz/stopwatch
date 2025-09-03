@@ -19,7 +19,6 @@ A simple and elegant stopwatch for the web, designed to measure time intervals w
 - [Installation](#-installation)
 - [How to Use](#-how-to-use)
 - [Want to Contribute?](#-want-to-contribute)
-- [License](#-license)
 - [Author](#-author)
 
 ---
