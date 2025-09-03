@@ -45,14 +45,14 @@ html {
 
 .grid-container {
   border-radius: 50%;
-  border: 5px solid var(--borderColor);
-  border-collapse: collapse;
-  width: 220px;
-  height: 220px;
+  border: 5.3px solid var(--borderColor);
+  width: 190px;
+  height: 190px;
   padding: 50px;
   display: grid;
+  place-content: center;
   justify-items: center;
-  align-content: center;
+  padding: 90px;
   grid:
     "timer timer"
     "clock clock"
@@ -61,13 +61,13 @@ html {
 
 .grid-container h1 {
   grid-area: timer;
-  font-size: 3.4rem;
+  font-size: 3.3rem;
 }
 
 .grid-container p {
   grid-area: clock;
-  font-size: 2.2em;
-  padding: 12px;
+  font-size: 2.2rem;
+  padding: 14px;
 }
 
 .button {
@@ -76,6 +76,7 @@ html {
   border-radius: 14px;
   border: 0px;
   color: #ffffff;
+  width: 90px; 
   padding: 10px;
   margin: 5px 10px;
   font-size: 1rem;

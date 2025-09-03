@@ -1,0 +1,46 @@
+let displayTime = (hours, minutes, seconds) => {
+    let addZero = (num) => (num < 10 ? `0${num}` : num);
+    return `${addZero(hours)}:${addZero(minutes)}:${addZero(seconds)}`;
+  };
+  
+  const clock = document.querySelector(".clock");
+  const start = document.querySelector(".start");
+  const reset = document.querySelector(".reset");
+  
+  let totalSeconds = 0;
+  let stopwatch;
+  
+  function startClock() {
+    stopwatch = setInterval(function () {
+      totalSeconds++;
+      let hours = Math.floor(totalSeconds / 3600);
+      let minutes = Math.floor((totalSeconds % 3600) / 60);
+      let displaySeconds = totalSeconds % 60;
+      clock.innerHTML = displayTime(hours, minutes, displaySeconds);
+    }, 1000);
+  }
+  
+  start.addEventListener("click", function() {
+    if (!stopwatch) {
+      startClock();
+      start.classList.add('pause')
+      start.textContent = 'Pausar';
+      clock.classList.remove('clock-pause')
+    } else {
+      clearInterval(stopwatch);
+      stopwatch = null;
+      start.classList.remove('pause')
+      clock.classList.add('clock-pause')
+      start.textContent = 'Iniciar';
+    }
+  });
+  
+  reset.addEventListener("click", function() {
+    clearInterval(stopwatch);
+    stopwatch = null;
+    totalSeconds = 0;
+    clock.innerHTML = displayTime(0, 0, 0);
+    start.textContent = 'Iniciar';
+    clock.classList.remove('clock-pause')
+  });
+  
