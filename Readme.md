@@ -75,11 +75,12 @@ Qualquer contribuição que você fizer será muito apreciada! Sinta-se à vonta
 
 ## ✍️ Autor
 
-Feito por **Emelly Muniz** com ❤️
+Feito por **Emelly Beatriz** com ❤️
 
 📬 Entre em contato:
 📧 emellybmuniz@gmail.com |
 💼 [Linkedin](www.linkedin.com/in/emellybmuniz)
+
 
 
 
