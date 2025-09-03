@@ -1,4 +1,5 @@
 # Stopwatch
+[🇺🇸 English](./README.en.md) | [🇧🇷 Português](./README.md)
 
 ![GitHub language count](https://img.shields.io/github/languages/count/emellybmuniz/stopwatch)
 ![GitHub top language](https://img.shields.io/github/languages/top/emellybmuniz/stopwatch)
@@ -37,9 +38,10 @@ Um cronômetro simples e elegante para a web, projetado para medir intervalos de
 ## 🚀 Tecnologias Utilizadas
 
 Este projeto foi construído utilizando as seguintes tecnologias:
-- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/HTML5)
-- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## ⚙️ Pré-requisitos
 
@@ -80,6 +82,7 @@ Feito por **Emelly Beatriz** com ❤️
 📬 Entre em contato:
 📧 emellybmuniz@gmail.com |
 💼 [Linkedin](www.linkedin.com/in/emellybmuniz)
+
 
 
 
